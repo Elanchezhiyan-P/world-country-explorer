@@ -1,0 +1,16 @@
+src/
+├── assets/
+├── components/
+│   └── Loader
+│        ├── Loader.tsx
+|        └── Loader.css
+├── pages/
+│   ├── Home.tsx
+│   ├── CountryDetails.tsx
+│   └── NotFound.tsx
+├── services/
+│   └── countryService.ts    
+├── routes/
+│   └── Routes.tsx        # Routes handling
+├── App.tsx               # Main entry point with layout
+└── index.tsx             # React DOM rendering
